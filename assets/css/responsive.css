@@ -872,7 +872,7 @@ form.contact-form textarea {
 }
 
 
-@media (min-width: 320px) and (max-width: 575px)  {
+@media (min-width: 318px) and (max-width: 575px)  {
 .hero-big-title {
     top: 35px;
         left: 20px;
@@ -912,11 +912,15 @@ form.contact-form textarea {
 }
 form.footer-form input {
     width: 100%;
-    padding-left: 0px;
+    padding-left: 15px;
     margin-bottom: 15px;
 }
 .row.justify-content-center.mobile-gurter {
     padding: 0 !important;
     margin: 0 !important;
 }
+form.footer-form button {
+    font-size: 12px;
+    width: 100%;
+    }
   }
