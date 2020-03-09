@@ -15,12 +15,16 @@
   --h: #1F1F20;
   --dark: #1F1F20;
 }
-
+html,body{
+  width: 100%;
+  height: 100%;
+}
 body {
   font-family: 'Montserrat',sans-serif;
   font-weight: normal;
   font-style: normal;
   background-color: var(--body);
+
 }
 
 a,
@@ -1041,4 +1045,63 @@ ul.footer-social-links li a {
 
 /* footer section end */
 
+/* contact page start here  */
+section.contact-wrapper {
+    background: #FCF9F7;
+    height: 100%;
+    width: 100%;
+}
+.contact-right-section {
+    text-align: center;
+}
+
+.contact-heading h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.contact-heading {
+    padding-top: 40px;
+}
+
+.contact-desc p {
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+form.contact-form input {
+    padding: 30px 20px;
+    margin-bottom: 35px;
+}
+form.contact-form button {
+    background: #1E1E1E;
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    -webkit-transition: all .25s ;
+       -moz-transition: all .25s ;
+        -ms-transition: all .25s ;
+         -o-transition: all .25s ;
+            transition: all .25s ;
+}
+form.contact-form button:hover{
+  background-color: #0056b3;
+}
+.row.justify-content-center {
+    width: 100%;
+}
+form.contact-form {
+    background: #fff;
+    padding: 15px;
+}
+.left-section-img img {
+    width: 100%;
+}
+form.contact-form textarea {
+    height: 200px;
+}
 /************** Template CSS End **************/
