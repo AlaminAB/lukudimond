@@ -873,6 +873,9 @@ form.contact-form textarea {
 
 
 @media (min-width: 318px) and (max-width: 575px)  {
+  .contact-form{
+    padding: 15px;
+  }
 .hero-big-title {
     top: 35px;
         left: 20px;
@@ -923,4 +926,12 @@ form.footer-form button {
     font-size: 12px;
     width: 100%;
     }
+    .ring-slider-wrap {
+    top: 277px;
+  }
+.single-ring-img.slick-current.slick-active.slick-center img {
+    width: 175px;
+    margin-left: -20px;
+    margin-top: -14px;
+
   }
