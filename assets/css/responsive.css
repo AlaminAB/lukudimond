@@ -868,4 +868,55 @@ form.contact-form button {
 form.contact-form textarea {
     height: 180px;
 }
+
 }
+
+
+@media (min-width: 320px) and (max-width: 575px)  {
+.hero-big-title {
+    top: 35px;
+        left: 20px;
+}
+.hero-big-title {
+    text-align: left;
+    }
+    .hero-big-title span {
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 22px;
+}
+.hero-big-title h1 {
+    font-size: 19px;
+}
+.hero-sec-wrapper {
+    background-size: cover;
+    background-position: bottom;
+}
+.hero-content-area {
+    min-height: 268px;
+}
+.hero-small-content p {
+    font-size: 12px;
+    line-height: 14px;
+}
+.hero-small-content {
+    width: 100%;
+    max-width: 62%;
+    bottom: 0px;
+    right: 0;
+    left: 62%;
+    transform: translateX(-50%);
+}
+.ring-slider-bottom-content h2 {
+    margin-bottom: 5px;
+}
+form.footer-form input {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 15px;
+}
+.row.justify-content-center.mobile-gurter {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+  }
