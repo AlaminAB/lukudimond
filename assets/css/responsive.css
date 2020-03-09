@@ -200,6 +200,8 @@
 
 }
 
+
+
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767.98px) { 
    
@@ -625,7 +627,7 @@
   .navbtn span {
     display: block;
     width: 32px;
-    height: 3.3px;
+    height: 3.5px;
     background-color: #000;
     border-radius: 2px;
     margin-bottom: 7px;
@@ -752,6 +754,11 @@ ul.mega-menu-wrap.sustanability-menu>li .mega-menu-title .the-icon {
 }
 
 
-@media (max-width: 699px) {
-
+@media (min-width: 320px) and (max-width: 768px)  {
+p.reviews-det {
+    padding-top: 20px;
+}
+span.dimond-price {
+    display: none;
+}
 }
