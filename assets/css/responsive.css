@@ -367,12 +367,12 @@
   }
 
 
-  .hero-small-content {
+.hero-small-content {
     width: 100%;
-    max-width: 100%;
-    bottom: 20px;
+    max-width: 70%;
+    bottom: 45px;
     right: 0;
-  }
+}
 
   .single-our-mission .mission-icon::before,
   .single-our-mission .mission-icon::after {
@@ -535,7 +535,6 @@
   form.footer-form {
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
     margin: 0 auto;
   }
 
@@ -743,6 +742,12 @@ ul.mega-menu-wrap.sustanability-menu.navbar {
 ul.mega-menu-wrap.sustanability-menu>li .mega-menu-title .the-icon {
    
     margin-bottom: 0px;
+}
+.single-footer-wid p {
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 50px;
+    padding: 0;
 }
 }
 

@@ -477,14 +477,15 @@ ul.mega-menu-wrap.engagement li .mega-menu-title h6 {
 }
 
 .hero-small-content {
-  width: 100%;
-  max-width: 700px;
+  width: 52%;
   text-align: center;
   position: absolute;
   bottom: 100px;
   right: 30px;
 }
-
+p.reviews-det {
+    padding-top: 20px;
+}
 /* Hero area end */
 
 /* slider section */
@@ -698,10 +699,13 @@ ul.mega-menu-wrap.engagement li .mega-menu-title h6 {
   position: relative;
   margin-bottom: 15px;
 }
-
+.mission-icon img {
+    width: 100%;
+    max-width: 145px;
+}
 .single-our-mission .mission-icon::before,
 .single-our-mission .mission-icon::after {
-  border-top: 1px dashed #BCE8F2;
+  border-top: 1px dashed #EFE2D9;
   content: "";
   position: absolute;
   margin-top: -0.5px;
@@ -947,10 +951,11 @@ footer {
 }
 
 .single-footer-wid p {
-  line-height: 24px;
-  font-size: 16px;
-  margin-bottom: 25px;
-  font-weight: 600;
+    line-height: 24px;
+    font-size: 17px;
+    margin-bottom: 60px;
+    font-weight: 600;
+   
 }
 
 form.footer-form {
@@ -959,24 +964,24 @@ form.footer-form {
 }
 
 form.footer-form input {
-  width: calc(100% - 100px);
-  height: 45px;
-  padding-left: 20px;
-  font-size: 15px;
-  border: none;
-  border-radius: 3px;
+    width: calc(100% - 270px);
+    height: 45px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
 }
-
 form.footer-form button {
-  background-color: #000;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-  height: 45px;
-  width: 100px;
-  display: inline-block;
-  border-radius: 3px;
-  border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
 }
 
 

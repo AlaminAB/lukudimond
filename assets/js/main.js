@@ -48,14 +48,7 @@ $('#ring-slider-3').slick({
         this.classList.toggle('active')
     });
 
-    $(window).scroll(function() {    // this will work when your window scrolled.
-        var height = $(window).scrollTop();  //getting the scrolling height of window
-        if(height  > 45) {
-            $(".main-header").addClass("sticy_header");
-        } else{
-            $(".main-header").removeClass('sticy_header');
-        }
-    });
+  
 
     var lastScrollTop = 0;
 // element should be replaced with the actual target element on which you have applied scroll, use window in case of no target element.
