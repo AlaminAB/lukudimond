@@ -486,6 +486,8 @@ ul.mega-menu-wrap.engagement li .mega-menu-title h6 {
   position: absolute;
   bottom: 100px;
   right: 30px;
+  left: 65%;
+    transform: translateX(-50%);
 }
 
 /* Hero area end */
