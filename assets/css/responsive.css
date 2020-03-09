@@ -29,8 +29,29 @@ form.contact-form input {
 }
 }
 
-@media (min-width: 1000px) and (max-width:1199px){ 
-
+@media (min-width: 991px) and (max-width:1340px){ 
+.left-section-img img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+}
+.contact-heading h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.contact-desc p {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+form.contact-form input {
+    padding: 18px 11px;
+    margin-bottom: 20px;
+}
+form.contact-form textarea {
+    height: 120px;
+}
 }
 
 
