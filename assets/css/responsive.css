@@ -730,6 +730,7 @@ ul.main-menu li:hover .mega-menu-wrap {
     }
     .mega-banner img {
     padding-right: 25px;
+    width: 60% !important;
 }
 ul.mega-menu-wrap.sustanability-menu.navbar {
     display: grid;
